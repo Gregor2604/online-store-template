@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Online Store Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="header">    
+    <div class="container">
+        <div class="navbar">
+            <nav>
+                <ul id="MenuItems" >
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <!--<li><a href="">About us</a></li>-->
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" alt=""></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" alt="">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Give Your Online Shopping <br>A New Style!</h1>
+                <p>At our Store you get the best <br>
+                Shipping, Price and Quality, <br> 
+                In one Package</p>
+                <a href="products.html" class="btn">Explore our Products! &#10132;</a>
+            </div>
+            <div class="main-image">
+                <img src="images/general/header-main.png" alt=""> 
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--Categories-->
+    <div class="categories">
+        <div class="small-container">
+            <h2 class="title"> Our Categories</h2>
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/products-2/iphone-14-pro-main.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/categories/macbook-pro-m2-category.png" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/categories/ipad-pro-m2-category.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Our most popular Products-->
+    <div class="small-container">
+        <h2 class="title">Our most popular Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details-1.html"><img src="images/products-2/iphone-14-pro-main.jpg" alt=""></a>
+                <a href="product-details-1.html"><h4>Name of the Product</h4></a>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$XXX.XX</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details-2.html"><img src="images/products-2/iphone-14-pro-main.jpg" alt=""></a>
+                <a href="product-details-2.html"><h4>Name of the Product</h4></a>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$XXX.XX</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details-3.html"><img src="images/products-2/iphone-14-pro-main.jpg" alt=""></a>
+                <a href="product-details-3.html"><h4>Name of the Product</h4></a>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$XXX.XX</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details-4.html"><img src="images/products-2/iphone-14-pro-main.jpg" alt=""></a>
+                <a href="product-details-4.html"><h4>Name of the Product</h4></a>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$XXX.XX</p>
+            </div>
+
+<!--Our Latest Products-->
+
+        <h2 class="title">Our Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details-5.html"><img src="images/products-2/iphone-14-pro-main.jpg" alt=""></a>
+                <a href="product-details-5.html"><h4>Name of the Product</h4></a>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$XXX.XX</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details-6.html"><img src="images/products-2/iphone-14-pro-main.jpg" alt=""></a>
+                <a href="product-details-6.html"><h4>Name of the Product</h4></a>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$XXX.XX</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details-7.html"><img src="images/products-2/iphone-14-pro-main.jpg" alt=""></a>
+                <a href="product-details-7.html"><h4>Name of the Product</h4></a>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$XXX.XX</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details-8.html"><img src="images/products-2/iphone-14-pro-main.jpg" alt=""></a>
+                <a href="product-details-8.html"><h4>Name of the Product</h4></a>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$XXX.XX</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details-9.html"><img src="images/products-2/iphone-14-pro-main.jpg" alt=""></a>
+                <a href="product-details-9.html"><h4>Name of the Product</h4></a>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$XXX.XX</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details-10.html"><img src="images/products-2/iphone-14-pro-main.jpg" alt=""></a>
+                <a href="product-details-10.html"><h4>Name of the Product</h4></a>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$XXX.XX</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details-11.html"><img src="images/products-2/iphone-14-pro-main.jpg" alt=""></a>
+                <a href="product-details-11.html"><h4>Name of the Product</h4></a>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$XXX.XX</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details-12.html"><img src="images/products-2/iphone-14-pro-main.jpg" alt=""></a>
+                <a href="product-details-12.html"><h4>Name of the Product</h4></a>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$XXX.XX</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Offer-->
+    
+    <div class="offer">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/categories/ipad-pro-m2-category.png"  class="offer-img" alt="">
+            </div>
+            <div class="col-2">
+                <p>Exclusively Available in our Store</p>
+                <h1>iPad Pro M2 2023</h1>
+                <small>The newest iPad Pro has an unreachable Power, <br> combined with an amazing battery life it may be your next laptop! <br></small>
+                <a href="product-details-exclusive.html" class="btn">Buy Now! &#10132;</a>
+            </div>
+        </div>
+    </div>
+
+<!--Testimonial-->
+    <div class="testimonial">
+        <div class="small-container">
+            <h2 class="title">Client's Reviews about our Shop!</h2>
+            <div class="row">
+                <div class="col-3-testimonial">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Nam voluptatem
+                    repudiandae, esse quod non eaque,
+                    quam inventore quibusdam autem, 
+                    natus asperiores nisi cum rerum 
+                    aliquid ratione earum minima. Dolor,
+                    deserunt!</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <img src="images/user-1.png" alt="">
+                    <h3>Sean Park</h3>
+                </div>
+                <div class="col-3-testimonial">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Nam voluptatem
+                    repudiandae, esse quod non eaque,
+                    quam inventore quibusdam autem, 
+                    natus asperiores nisi cum rerum 
+                    aliquid ratione earum minima. Dolor,
+                    deserunt!</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <img src="images/user-2.png" alt="">
+                    <h3>Mike Smith</h3>
+                </div>
+                <div class="col-3-testimonial">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Nam voluptatem
+                    repudiandae, esse quod non eaque,
+                    quam inventore quibusdam autem, 
+                    natus asperiores nisi cum rerum 
+                    aliquid ratione earum minima. Dolor,
+                    deserunt!</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <img src="images/user-3.png" alt="">
+                    <h3>Mabel Joe</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Brands-->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/logo-fossil.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-puma.jpg" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-nike.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-xiaomi.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-hrx.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Footer-->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and IOS mobile Phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Blog</li>
+                        <li>Terms of Use</li>
+                        <li>Privacy Policy</li>
+                        <li>Return Policy</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a><li>
+                        <li><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - Gregor Zavodnik &#169;</p>
+        </div>
+    </div>
+
+<!--JS for Toggle Menu-->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+
+        }
+    </script>
+</body>
+</html>
